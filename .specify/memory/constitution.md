@@ -1,55 +1,64 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- SYNC IMPACT REPORT
+Version change: 1.0.0 → 1.1.1
+Modified principles:
+- Principle 1: [PRINCIPLE_1_NAME] → Physical AI & Spec-Driven Development
+- Principle 2: [PRINCIPLE_2_NAME] → AI Governance & Tooling Standards
+- Principle 3: [PRINCIPLE_3_NAME] → Beginner-First Content Creation
+- Principle 4: [PRINCIPLE_4_NAME] → Production-Grade Implementation Standards (JavaScript → TypeScript)
+- Principle 5: [PRINCIPLE_5_NAME] → UI/UX & Accessibility Requirements
+- Principle 6: [PRINCIPLE_6_NAME] → Technology Stack & Deployment Standards (removed specific tools reference)
+
+Added sections:
+- Learning Progression Model
+- Tooling & Deployment Requirements
+- Governance & Enforcement
+
+Removed sections: None
+
+Templates requiring updates:
+- .specify/templates/plan-template.md ✅ updated - Constitution Check section aligned
+- .specify/templates/spec-template.md ⚠ pending - May need alignment with new principles
+- .specify/templates/tasks-template.md ⚠ pending - May need alignment with new principles
+
+Follow-up TODOs: None
+-->
+
+# Physical AI & Humanoid Robotics Book Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Physical AI & Spec-Driven Development
+Every chapter starts as a standalone specification; All content must follow Spec-Kit Plus methodology with clear purpose, inputs, outputs, constraints, and validation criteria. All chapters must be spec-defined and validated to ensure production-grade implementation over theory.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### AI Governance & Tooling Standards
+AI tools are permitted only as content refiners and editors; AI tools must not act as autonomous authors or decision-makers. Google Gemini must be used if external AI APIs are required; OpenAI APIs are explicitly disallowed. All AI-assisted content must be reviewed, verified, and explicitly aligned with its governing spec.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Beginner-First Content Creation
+All content must assume minimal prior knowledge, follow step-by-step instructional flow, avoid unexplained jargon, and prefer real, working implementations over conceptual discussion. Content must be designed for absolute beginners with production-grade examples.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Production-Grade Implementation Standards
+All code and implementations must be production-grade, follow industry best practices, be buildable and deployable, use clear naming and structure. Code that does not run or cannot be validated is non-compliant. TypeScript is the required language for all implementations.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### UI/UX & Accessibility Requirements
+A Purple + Neon theme must be applied consistently across pages, components, navigation, and UI elements. All images and screenshots must include meaningful alt text. Mobile-first design is mandatory with layouts tested across viewports from 320px to 2560px. Lazy loading is mandatory for images and media assets.
 
-### [PRINCIPLE_6_NAME]
+### Technology Stack & Deployment Standards
+Docusaurus is mandatory for documentation generation and deployment. Markdown/MDX must follow Docusaurus standards. The book must be deployed on GitHub Pages and be publicly accessible with successful builds without errors. TypeScript is the required language for all implementations.
 
+## Learning Progression Model
 
-[PRINCIPLE__DESCRIPTION]
+The book follows a progressive complexity structure with Weeks 1-2 for fundamentals, Weeks 3-10 for core skills, and Weeks 11-13 for advanced integration. Introducing advanced topics before prerequisite stages is prohibited.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Tooling & Deployment Requirements
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+Docusaurus is mandatory for the book generation. Markdown/MDX must follow Docusaurus standards. The book must be deployed on GitHub Pages, be publicly accessible, and build successfully without errors.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Governance & Enforcement
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+This project is a hackathon submission. Any contribution that violates this constitution must be rejected and must be removed or corrected. No exceptions are permitted for time pressure, AI-generated content, or contributor experience level. This project is a hackathon submission. Any content that violates this constitution is non-compliant and invalid.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution is the single source of truth. Any artifact that violates this constitution is considered non-compliant and invalid. All contributions must verify compliance. This constitution may only be modified through explicit version updates, clear written justification, and repository-wide compliance after amendment.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.1.1 | **Ratified**: 2025-06-13 | **Last Amended**: 2025-12-16
