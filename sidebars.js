@@ -35,26 +35,6 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'NVIDIA Isaac Platform (Weeks 8-10)',
-      items: [
-        'modules/week-08-10-isaac/isaac-sdk',
-        'modules/week-08-10-isaac/perception-pipelines',
-        'modules/week-08-10-isaac/visual-slam',
-      ],
-      collapsed: false,
-    },
-    {
-      type: 'category',
-      label: 'Humanoid Development (Weeks 11-12)',
-      items: [
-        'modules/week-11-12-humanoid/kinematics-dynamics',
-        'modules/week-11-12-humanoid/bipedal-locomotion',
-        'modules/week-11-12-humanoid/human-robot-interaction',
-      ],
-      collapsed: false,
-    },
-    {
-      type: 'category',
       label: 'Conversational Robotics (Week 13)',
       items: [
         'modules/week-13-conversational/language-models-robotics',
@@ -65,9 +45,11 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Capstone Project',
+      label: 'Assessments',
       items: [
-        'capstone/autonomous-humanoid-project',
+        'modules/week-03-05-ros2/ros2-assessment',
+        'modules/week-06-07-simulation/simulation-assessment',
+        'modules/week-13-conversational/vla-assessment',
       ],
       collapsed: false,
     },

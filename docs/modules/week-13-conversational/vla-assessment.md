@@ -103,7 +103,7 @@ Implement Google Gemini integration that:
 
 1. **VLA Pipeline Code**: Complete implementation of VLA system (`vla_pipeline.py`)
 2. **Voice Processing Code**: Voice command processing implementation (`voice_command_processing.py`)
-3. **Gemini Integration**: Google Gemini API integration (`gemini-integration.py`)
+3. **Gemini Integration**: Google Gemini API integration (`gemini_integration.py`)
 4. **Configuration Files**: All necessary config files and launch files
 5. **Documentation**: Implementation guide and API documentation
 6. **Test Results**: Output from test runs demonstrating functionality
@@ -158,7 +158,7 @@ You have 6 hours to complete this assessment. Plan your time accordingly to ensu
 
 ## Submission Process
 
-1. Package all required files in a zip archive named `vla_assessment_<student_name>.zip`
+1. Package all required files in a zip archive named `vla_assessment_&lt;student_name&gt;.zip`
 2. Run comprehensive tests and capture results
 3. Verify Google Gemini integration is properly configured
 4. Submit through the course management system
@@ -193,7 +193,7 @@ To pass this assessment, you must achieve:
 - Basic error handling
 - Minimal documentation
 
-### Beginning (<70%)
+### Beginning (&lt;70%)
 - Significant requirements not met
 - Major implementation problems
 - Inadequate error handling
