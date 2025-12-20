@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import FuturisticRoboticsSVG from '@site/static/img/futuristic-robotics.svg';
 
 import styles from './index.module.css';
 
@@ -11,14 +12,23 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/modules/week-01-02-fundamentals/physical-ai-principles">
-            Start Learning - 5min ⏱️
-          </Link>
+        <div className="row">
+          <div className="col col--8">
+            <h1 className="hero__title">{siteConfig.title}</h1>
+            <p className="hero__subtitle">{siteConfig.tagline}</p>
+            <div className={styles.buttons}>
+              <Link
+                className="button button--secondary button--lg"
+                to="/docs/modules/week-01-02-fundamentals/physical-ai-principles">
+                Start Learning - 5min ⏱️
+              </Link>
+            </div>
+          </div>
+          <div className="col col--4">
+            <div className={styles.futuristicImageContainer}>
+              <FuturisticRoboticsSVG className={styles.futuristicImage} />
+            </div>
+          </div>
         </div>
       </div>
     </header>
