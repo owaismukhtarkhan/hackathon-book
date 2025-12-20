@@ -35,11 +35,41 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'NVIDIA Isaac Platform (Weeks 8-10)',
+      items: [
+        'modules/week-08-10-isaac/isaac-sdk',
+        'modules/week-08-10-isaac/perception-pipelines',
+        'modules/week-08-10-isaac/visual-slam',
+        'modules/week-08-10-isaac/isaac-assessment',
+      ],
+      collapsed: false,
+    },
+    {
+      type: 'category',
+      label: 'Humanoid Development (Weeks 11-12)',
+      items: [
+        'modules/week-11-12-humanoid/kinematics-dynamics',
+        'modules/week-11-12-humanoid/bipedal-locomotion',
+        'modules/week-11-12-humanoid/human-robot-interaction',
+        'modules/week-11-12-humanoid/humanoid-assessment',
+      ],
+      collapsed: false,
+    },
+    {
+      type: 'category',
       label: 'Conversational Robotics (Week 13)',
       items: [
         'modules/week-13-conversational/language-models-robotics',
         'modules/week-13-conversational/speech-recognition',
         'modules/week-13-conversational/multi-modal-interaction',
+      ],
+      collapsed: false,
+    },
+    {
+      type: 'category',
+      label: 'Capstone Project',
+      items: [
+        'capstone/autonomous-humanoid-project',
       ],
       collapsed: false,
     },

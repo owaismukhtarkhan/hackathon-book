@@ -139,14 +139,6 @@ const config = {
         darkTheme: prismThemes.dracula,
         additionalLanguages: ['python', 'bash', 'docker', 'json'],
       },
-      algolia: {
-        // The application ID provided by Algolia
-        appId: 'YOUR_APP_ID',
-        // Public API key: it is safe to commit it
-        apiKey: 'YOUR_SEARCH_API_KEY',
-        indexName: 'physical-ai-humanoid-robotics',
-        contextualSearch: true,
-      },
     }),
 };
 
