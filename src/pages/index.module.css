@@ -1,0 +1,96 @@
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #8a2be2 0%, #6a1cb9 100%); /* Purple gradient for both modes */
+  color: white; /* Default text color for light background */
+}
+
+.heroBanner h1 {
+  color: white;
+}
+
+.heroBanner p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.aboutSection {
+  padding: 4rem 0;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #212529; /* Dark text for light background */
+}
+
+.aboutSection h2 {
+  color: #8a2be2; /* Purple heading */
+  margin-bottom: 2rem;
+}
+
+.aboutSection h3 {
+  color: #6a1cb9; /* Darker purple subheading */
+  margin-top: 1.5rem;
+}
+
+.aboutSection p {
+  color: #495057; /* Dark gray text */
+  line-height: 1.6;
+}
+
+.aboutSection ul, .aboutSection ol {
+  color: #495057; /* Dark gray list text */
+}
+
+/* Dark mode overrides */
+html[data-theme='dark'] .heroBanner {
+  background: linear-gradient(135deg, #6a1cb9 0%, #4a148c 100%); /* Darker purple gradient */
+  color: #e9ecef; /* Light text for dark background */
+}
+
+html[data-theme='dark'] .heroBanner h1 {
+  color: #f8f9fa;
+}
+
+html[data-theme='dark'] .heroBanner p {
+  color: #dee2e6;
+}
+
+html[data-theme='dark'] .aboutSection {
+  background-color: #212529; /* Dark background */
+  color: #e9ecef; /* Light text */
+}
+
+html[data-theme='dark'] .aboutSection h2 {
+  color: #39ff14; /* Neon green heading in dark mode */
+}
+
+html[data-theme='dark'] .aboutSection h3 {
+  color: #6bff49; /* Lighter neon green subheading */
+}
+
+html[data-theme='dark'] .aboutSection p {
+  color: #ced4da; /* Light gray text */
+}
+
+html[data-theme='dark'] .aboutSection ul,
+html[data-theme='dark'] .aboutSection ol {
+  color: #ced4da; /* Light gray list text */
+}
+
+@media screen and (max-width: 996px) {
+  .aboutSection {
+    padding: 2rem 0;
+  }
+}

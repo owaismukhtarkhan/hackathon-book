@@ -1,0 +1,9 @@
+<svg width="1024" height="512" viewBox="0 0 1024 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="512" fill="#8a2be2"/> <!-- Purple background -->
+  <text x="512" y="200" text-anchor="middle" fill="white" font-size="48" font-family="Arial">Physical AI & Humanoid Robotics</text>
+  <text x="512" y="280" text-anchor="middle" fill="#39ff14" font-size="32" font-family="Arial">Educational Resource for Embodied Intelligence</text>
+  <circle cx="512" cy="400" r="50" fill="#39ff14"/> <!-- Neon green robot head -->
+  <rect x="487" y="450" width="50" height="80" fill="#39ff14"/> <!-- Body -->
+  <line x1="487" y1="470" x2="440" y2="430" stroke="#39ff14" stroke-width="10"/> <!-- Left arm -->
+  <line x1="537" y1="470" x2="584" y2="430" stroke="#39ff14" stroke-width="10"/> <!-- Right arm -->
+</svg>
