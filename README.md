@@ -171,6 +171,19 @@ If you encounter any issues or have questions:
 
 ---
 
+## 👨‍💻 Author Information
+
+**Owais Mukhtar Khan**
+Creator of the Physical AI & Humanoid Robotics Book
+
+### 📞 Contact Information
+- **Email**: [owaismukhtarkhan@gmail.com](mailto:owaismukhtarkhan@gmail.com)
+- **GitHub**: [https://github.com/owaismukhtarkhan](https://github.com/owaismukhtarkhan)
+- **Mobile**: +923000509294
+- **WhatsApp**: +923152414252
+
+---
+
 **Made with ❤️ for the robotics education community**
 
 *This project is part of the Physical AI & Humanoid Robotics educational initiative. All content is designed to be accessible to absolute beginners while providing depth for advanced learners.*
