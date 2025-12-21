@@ -29,6 +29,23 @@ interface GeminiResponse {
   error?: string;
 }
 
+// VLA-specific response interface for robotics applications
+export interface VLARequest {
+  image?: Uint8Array;  // Image data for vision tasks
+  text: string;        // Natural language command
+  context?: Record<string, any>;  // Additional context (robot state, environment, etc.)
+}
+
+// VLA-specific response interface for robotics applications
+export interface VLEResponse {
+  action_sequence: string[];
+  confidence_score: number;
+  reasoning: string;
+  parameters?: Record<string, any>;
+  scene_understanding?: string;
+  target_object?: string;
+}
+
 class GeminiIntegration {
   private config: GeminiConfig;
   private baseUrl: string;
@@ -190,5 +207,5 @@ const geminiConfig: GeminiConfig = {
 // Singleton instance
 const geminiIntegration = new GeminiIntegration(geminiConfig);
 
-export { GeminiIntegration, GeminiConfig, GeminiRequest, GeminiResponse };
+export { GeminiIntegration, GeminiConfig, GeminiRequest, GeminiResponse, VLARequest, VLEResponse };
 export default geminiIntegration;
