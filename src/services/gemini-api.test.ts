@@ -3,8 +3,11 @@
  * Validates Google Gemini API integration for robotics applications
  */
 
-import { GoogleGenerativeAI, GenerativeModel } from "@google/generative-ai";
-import { VLARequest, VLEResponse, GeminiIntegrationService } from "./gemini-integration";
+// Dynamic import for browser-specific API - only import when needed
+// import { GoogleGenerativeAI, GenerativeModel } from "@google/generative-ai";
+import { VLARequest, VLEResponse } from "./gemini-integration";
+// Note: This test file should not be included in the Docusaurus build process
+// It's only for unit testing outside of the website build
 
 // Mock configuration for testing
 const MOCK_GEMINI_CONFIG = {
